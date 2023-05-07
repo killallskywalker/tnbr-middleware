@@ -1,6 +1,7 @@
 {
     "name": "killallskywalker/tnbr-middleware",
     "description": "Handle authorization and middleware for tnbr auth session",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Killallskywalker\\TnbrMiddleware\\": "src/"
@@ -11,5 +12,8 @@
             "name": "Killallskywalker"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^7.4",
+        "laravel/framework": "^8.0"
+    }
 }
