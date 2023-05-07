@@ -1,0 +1,15 @@
+{
+    "name": "killallskywalker/tnbr-middleware",
+    "description": "Handle authorization and middleware for tnbr auth session",
+    "autoload": {
+        "psr-4": {
+            "Killallskywalker\\TnbrMiddleware\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Killallskywalker"
+        }
+    ],
+    "require": {}
+}
